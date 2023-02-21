@@ -1,0 +1,5 @@
+"imei":"350424068335007"	"chassis_number":"MHMFE75EKNK000866"
+"imei":"350424063880650"	"chassis_number":"MHMFE75EKNK000914"
+"imei":"350424068270550"	"chassis_number":"MHMFE75EKNK001840"
+"imei":"357544378585653"	"chassis_number":"MHMFE84EMNK000095"
+"imei":"350544504695431"	"chassis_number":"MHMFE74EJNK000929"

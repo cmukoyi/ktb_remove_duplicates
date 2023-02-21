@@ -1,0 +1,1037 @@
+2023-02-21T21:25:53  Welcome, you are now connected to log-streaming service. The default timeout is 2 hours. Change the timeout with the App Setting SCM_LOGSTREAM_TIMEOUT (in seconds). 
+2023-02-21T21:26:08.856 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.856 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=627e05b5-e47e-42d3-a807-28251430de43)
+2023-02-21T21:26:08.857 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.861 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3648233,"lat":-7.2107899,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:50+07:00","heading":173,"speed":11,"alt":1704,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35579923,"ignition":1,"fuellevel":89,"accu":27551,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.861 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.861 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.861 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.861 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A2EDD49F0629F64EBB4ED9D71CC0316794D34359D75A40380B40AD0148FB9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.861 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.861 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A2EDD49F0629F64EBB4ED9D71CC0316794D34359D75A40380B40AD0148FB9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.861 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.862 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=627e05b5-e47e-42d3-a807-28251430de43, Duration=5ms)
+2023-02-21T21:26:08.862 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.864 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.864 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.865 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.865 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ecad34a8-612d-473f-a895-83c668589780)
+2023-02-21T21:26:08.865 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=788a3498-8c3b-4254-afd3-d66152693146)
+2023-02-21T21:26:08.866 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.866 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3648216,"lat":-7.210845,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:52+07:00","heading":198,"speed":9,"alt":1703,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35579930,"ignition":1,"fuellevel":86,"accu":27563,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.866 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.866 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.866 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.866 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A4EDD49F0629B9196EC0E7D71CC031F637B23C59D75A40380940C60148FB9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.866 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.866 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A4EDD49F0629B9196EC0E7D71CC031F637B23C59D75A40380940C60148FB9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.866 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.866 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ecad34a8-612d-473f-a895-83c668589780, Duration=2ms)
+2023-02-21T21:26:08.867 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.867 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.867 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.36479,"lat":-7.2108933,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:25:52+07:00","heading":214,"speed":0,"alt":1703,"sat":16,"event_id":0,"event_key":"-","g_value":null,"mileage":35579932,"ignition":1,"fuellevel":108,"accu":27726,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:26:08.867 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.867 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.868 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.868 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E0EDD49F062936C8C969F4D71CC0311AFA27B858D75A40380040D60148FB9502AA010408011001B00110, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.868 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.868 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E0EDD49F062936C8C969F4D71CC0311AFA27B858D75A40380040D60148FB9502AA010408011001B00110, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.868 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.868 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=788a3498-8c3b-4254-afd3-d66152693146, Duration=3ms)
+2023-02-21T21:26:08.868 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.869 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d94c0e12-3d81-49e1-84fd-1a1a24ab74a5)
+2023-02-21T21:26:08.869 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.869 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.36479,"lat":-7.2108933,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:25:22+07:00","heading":214,"speed":0,"alt":1703,"sat":16,"event_id":0,"event_key":"-","g_value":null,"mileage":35579932,"ignition":1,"fuellevel":92,"accu":27692,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.869 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.870 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.870 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.870 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C2EDD49F062936C8C969F4D71CC0311AFA27B858D75A40380040D60148FB9502AA010408011001B00110, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.870 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.870 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C2EDD49F062936C8C969F4D71CC0311AFA27B858D75A40380040D60148FB9502AA010408011001B00110, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.870 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.870 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d94c0e12-3d81-49e1-84fd-1a1a24ab74a5, Duration=4ms)
+2023-02-21T21:26:08.870 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.856 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=627e05b5-e47e-42d3-a807-28251430de43)
+2023-02-21T21:26:08.862 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=627e05b5-e47e-42d3-a807-28251430de43, Duration=5ms)
+2023-02-21T21:26:08.865 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ecad34a8-612d-473f-a895-83c668589780)
+2023-02-21T21:26:08.865 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=788a3498-8c3b-4254-afd3-d66152693146)
+2023-02-21T21:26:08.867 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ecad34a8-612d-473f-a895-83c668589780, Duration=2ms)
+2023-02-21T21:26:08.868 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=788a3498-8c3b-4254-afd3-d66152693146, Duration=3ms)
+2023-02-21T21:26:08.869 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d94c0e12-3d81-49e1-84fd-1a1a24ab74a5)
+2023-02-21T21:26:08.870 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d94c0e12-3d81-49e1-84fd-1a1a24ab74a5, Duration=4ms)
+2023-02-21T21:26:08.940 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.941 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=54be1ffe-3f99-45a3-b654-fb428c6149c3)
+2023-02-21T21:26:08.941 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.941 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3645833,"lat":-7.2105266,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:39+07:00","heading":178,"speed":12,"alt":1708,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35579879,"ignition":1,"fuellevel":97,"accu":27635,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.941 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.941 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.941 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.942 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2097EDD49F062996C0F74894D71CC031BD8A315555D75A40380C40B20148FB9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.942 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.942 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2097EDD49F062996C0F74894D71CC031BD8A315555D75A40380C40B20148FB9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.942 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.942 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=54be1ffe-3f99-45a3-b654-fb428c6149c3, Duration=1ms)
+2023-02-21T21:26:08.942 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.944 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.944 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.945 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.945 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=216db686-e668-4784-8069-c84bef362806)
+2023-02-21T21:26:08.946 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e4c89f45-1f9d-4cf8-b971-fb21a6bec144)
+2023-02-21T21:26:08.946 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=08428ae0-1ed8-4288-af3a-d84ae5df4fe6)
+2023-02-21T21:26:08.946 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.946 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3646083,"lat":-7.2105816,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:41+07:00","heading":143,"speed":13,"alt":1707,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35579885,"ignition":1,"fuellevel":110,"accu":27697,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.946 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.946 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.946 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.946 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2099EDD49F0629B38EF4B3A2D71CC03169160DBE55D75A40380D408F0148FB9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.946 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.946 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2099EDD49F0629B38EF4B3A2D71CC03169160DBE55D75A40380D408F0148FB9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.947 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.947 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=216db686-e668-4784-8069-c84bef362806, Duration=2ms)
+2023-02-21T21:26:08.947 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.947 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.947 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3648066,"lat":-7.21073,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:48+07:00","heading":141,"speed":14,"alt":1705,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35579916,"ignition":1,"fuellevel":91,"accu":27600,"gpsbatt":4013,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.948 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.948 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.948 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.948 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A0EDD49F0629F224E99AC9D71CC0315B17C8FD58D75A40380E408D0148FB9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.948 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.948 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A0EDD49F0629F224E99AC9D71CC0315B17C8FD58D75A40380E408D0148FB9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.948 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.948 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e4c89f45-1f9d-4cf8-b971-fb21a6bec144, Duration=3ms)
+2023-02-21T21:26:08.948 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.949 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.949 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.36468,"lat":-7.2106366,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:44+07:00","heading":119,"speed":16,"alt":1706,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35579899,"ignition":1,"fuellevel":96,"accu":27673,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.949 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.949 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.949 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.949 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D209CEDD49F0629CF5CF11EB1D71CC0315760C8EA56D75A403810407748FB9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.949 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.950 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D209CEDD49F0629CF5CF11EB1D71CC0315760C8EA56D75A403810407748FB9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.950 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.950 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=08428ae0-1ed8-4288-af3a-d84ae5df4fe6, Duration=4ms)
+2023-02-21T21:26:08.950 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.952 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.952 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:08.953 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=4f5f6764-2477-4642-99a7-0c1f1201e82b)
+2023-02-21T21:26:08.953 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=03177d19-c3a0-4538-8f16-bfd232f4f177)
+2023-02-21T21:26:08.953 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.953 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3645849,"lat":-7.210475,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:37+07:00","heading":208,"speed":12,"alt":1709,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35579872,"ignition":1,"fuellevel":86,"accu":27639,"gpsbatt":4013,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.953 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.953 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.953 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.953 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2095EDD49F06299D8026C286D71CC0316387E75B55D75A40380C40D00148FB9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.954 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.954 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2095EDD49F06299D8026C286D71CC0316387E75B55D75A40380C40D00148FB9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.954 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.954 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=4f5f6764-2477-4642-99a7-0c1f1201e82b, Duration=2ms)
+2023-02-21T21:26:08.954 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.954 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:08.955 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3646066,"lat":-7.2104483,"server_time":"2023-02-22T04:26:08+07:00","time":"2023-02-22T04:24:36+07:00","heading":228,"speed":12,"alt":1710,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35579872,"ignition":1,"fuellevel":86,"accu":27641,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:08.955 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:08.955 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:08.955 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:08.955 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2094EDD49F0629C5FE57C27FD71CC031F8B9EBB655D75A40380C40E40148FB9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:26:08.955 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:08.955 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2094EDD49F0629C5FE57C27FD71CC031F8B9EBB655D75A40380C40E40148FB9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:26:08.955 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:08.955 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=03177d19-c3a0-4538-8f16-bfd232f4f177, Duration=2ms)
+2023-02-21T21:26:08.955 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:08.941 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=54be1ffe-3f99-45a3-b654-fb428c6149c3)
+2023-02-21T21:26:08.942 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=54be1ffe-3f99-45a3-b654-fb428c6149c3, Duration=1ms)
+2023-02-21T21:26:08.946 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=216db686-e668-4784-8069-c84bef362806)
+2023-02-21T21:26:08.946 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e4c89f45-1f9d-4cf8-b971-fb21a6bec144)
+2023-02-21T21:26:08.946 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=08428ae0-1ed8-4288-af3a-d84ae5df4fe6)
+2023-02-21T21:26:08.947 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=216db686-e668-4784-8069-c84bef362806, Duration=2ms)
+2023-02-21T21:26:08.948 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e4c89f45-1f9d-4cf8-b971-fb21a6bec144, Duration=3ms)
+2023-02-21T21:26:08.950 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=08428ae0-1ed8-4288-af3a-d84ae5df4fe6, Duration=4ms)
+2023-02-21T21:26:08.953 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=4f5f6764-2477-4642-99a7-0c1f1201e82b)
+2023-02-21T21:26:08.953 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=03177d19-c3a0-4538-8f16-bfd232f4f177)
+2023-02-21T21:26:08.954 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=4f5f6764-2477-4642-99a7-0c1f1201e82b, Duration=2ms)
+2023-02-21T21:26:08.955 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=03177d19-c3a0-4538-8f16-bfd232f4f177, Duration=2ms)
+2023-02-21T21:26:18.231 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:18.232 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d3268fb4-5551-4eb3-a83b-47c6680c93e9)
+2023-02-21T21:26:18.232 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:18.232 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.364805,"lat":-7.21089,"server_time":"2023-02-22T04:26:17+07:00","time":"2023-02-22T04:26:13+07:00","heading":27,"speed":6,"alt":1704,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35579935,"ignition":1,"fuellevel":93,"accu":27625,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:18.232 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:18.232 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:26:18.232 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:26:18.232 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F5EDD49F0629B936548CF3D71CC031B51A12F758D75A403806401B48FB9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:26:18.233 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:26:18.233 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F5EDD49F0629B936548CF3D71CC031B51A12F758D75A403806401B48FB9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:26:18.233 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:26:18.233 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d3268fb4-5551-4eb3-a83b-47c6680c93e9, Duration=1ms)
+2023-02-21T21:26:18.233 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:18.501 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:18.502 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=3b8d61f7-0550-4b51-8f34-2e3b3fa5a363)
+2023-02-21T21:26:18.502 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:18.502 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424068270550","chassis_number":"MHMFE75EKNK001840","lon":110.8440833,"lat":-2.2755616,"server_time":"2023-02-22T04:26:18+07:00","time":"2023-02-22T04:15:28+07:00","heading":310,"speed":0,"alt":51,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":4241205,"ignition":0,"fuellevel":86,"accu":25456,"gpsbatt":4047,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:26:18.503 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:18.503 [Debug] RealtimeEndpoint: [350424068270550] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:26:18.503 [Debug] MProfilerRabbitMQPublisherService: [350424068270550] publishing event:6 to event decoder.
+2023-02-21T21:26:18.503 [Debug] [350424068270550] Publishing event to MProfiler, templateId:6, data:5C060066000A640806120F3335303432343036383237303535301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F0E8D49F06297944E0A3593402C0316226F67505B65B40380040B602489121AA010408011000B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:26:18.503 [Debug] MProfilerRabbitMQPublisherService: [350424068270550] publishing event:6 to data logger.
+2023-02-21T21:26:18.503 [Debug] [350424068270550] Publishing event to MProfiler, templateId:6, data:5C060066000A640806120F3335303432343036383237303535301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F0E8D49F06297944E0A3593402C0316226F67505B65B40380040B602489121AA010408011000B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:26:18.503 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:26:18.503 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=3b8d61f7-0550-4b51-8f34-2e3b3fa5a363, Duration=1ms)
+2023-02-21T21:26:18.503 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:18.232 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d3268fb4-5551-4eb3-a83b-47c6680c93e9)
+2023-02-21T21:26:18.233 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d3268fb4-5551-4eb3-a83b-47c6680c93e9, Duration=1ms)
+2023-02-21T21:26:18.502 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=3b8d61f7-0550-4b51-8f34-2e3b3fa5a363)
+2023-02-21T21:26:18.503 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=3b8d61f7-0550-4b51-8f34-2e3b3fa5a363, Duration=1ms)
+2023-02-21T21:26:44.264 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:44.264 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d63eea1d-8b78-4f2d-87ed-8f7630206481)
+2023-02-21T21:26:44.266 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:44.266 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"357544378585653","chassis_number":"MHMFE84EMNK000095","lon":100.640915,"lat":2.0047783,"server_time":"2023-02-22T04:26:43+07:00","time":"2023-02-22T04:14:45+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":35492093,"ignition":0,"fuellevel":174,"accu":25946,"gpsbatt":4071,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:26:44.266 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:44.266 [Debug] RealtimeEndpoint: [357544378585653] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:26:44.266 [Debug] MProfilerRabbitMQPublisherService: [357544378585653] publishing event:6 to event decoder.
+2023-02-21T21:26:44.266 [Debug] [357544378585653] Publishing event to MProfiler, templateId:6, data:5C060066000A640806120F3335373534343337383538353635331A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C5E8D49F062904D89134C909004031042159C0042959403800400048A49502AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:26:44.267 [Debug] MProfilerRabbitMQPublisherService: [357544378585653] publishing event:6 to data logger.
+2023-02-21T21:26:44.267 [Debug] [357544378585653] Publishing event to MProfiler, templateId:6, data:5C060066000A640806120F3335373534343337383538353635331A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C5E8D49F062904D89134C909004031042159C0042959403800400048A49502AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:26:44.267 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:26:44.267 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d63eea1d-8b78-4f2d-87ed-8f7630206481, Duration=2ms)
+2023-02-21T21:26:44.267 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:44.264 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d63eea1d-8b78-4f2d-87ed-8f7630206481)
+2023-02-21T21:26:44.267 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d63eea1d-8b78-4f2d-87ed-8f7630206481, Duration=2ms)
+2023-02-21T21:26:47.710 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=292ebb39-7679-4d9b-9f08-d8bcfe808677)
+2023-02-21T21:26:47.711 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=292ebb39-7679-4d9b-9f08-d8bcfe808677, Duration=1ms)
+2023-02-21T21:26:47.712 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=c7287464-6be0-4656-91b7-626171b22c2a)
+2023-02-21T21:26:47.713 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=c7287464-6be0-4656-91b7-626171b22c2a, Duration=1ms)
+2023-02-21T21:26:47.709 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:47.710 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=292ebb39-7679-4d9b-9f08-d8bcfe808677)
+2023-02-21T21:26:47.710 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:47.710 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:26:47+07:00","time":"2023-02-22T04:26:33+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:26:47.710 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:47.710 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:26:47.710 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:26:47.710 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2089EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:26:47.710 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:26:47.710 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2089EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:26:47.710 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:26:47.711 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=292ebb39-7679-4d9b-9f08-d8bcfe808677, Duration=1ms)
+2023-02-21T21:26:47.711 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:26:47.712 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:26:47.712 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=c7287464-6be0-4656-91b7-626171b22c2a)
+2023-02-21T21:26:47.713 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:26:47.713 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:26:47+07:00","time":"2023-02-22T04:26:03+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:26:47.713 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:26:47.713 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:26:47.713 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:26:47.713 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20EBEDD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:26:47.713 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:26:47.713 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20EBEDD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:26:47.713 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:26:47.713 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=c7287464-6be0-4656-91b7-626171b22c2a, Duration=1ms)
+2023-02-21T21:26:47.714 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:22.394 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:22.395 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=af548170-6be5-4da6-b406-c85a708bc94a)
+2023-02-21T21:27:22.395 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:22.395 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3648099,"lat":-7.210875,"server_time":"2023-02-22T04:27:21+07:00","time":"2023-02-22T04:26:43+07:00","heading":16,"speed":0,"alt":1703,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35579935,"ignition":1,"fuellevel":86,"accu":27589,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:27:22.395 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:22.395 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:22.395 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:22.396 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2093EED49F06290E2DB29DEFD71CC03173709F0B59D75A403800401048FB9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:27:22.396 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:22.396 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2093EED49F06290E2DB29DEFD71CC03173709F0B59D75A403800401048FB9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:27:22.396 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:22.396 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=af548170-6be5-4da6-b406-c85a708bc94a, Duration=1ms)
+2023-02-21T21:27:22.396 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:22.397 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:22.398 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=642b763b-0afa-4c84-b91b-ed1a15fa38a7)
+2023-02-21T21:27:22.398 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:22.398 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3645433,"lat":-7.2114083,"server_time":"2023-02-22T04:27:21+07:00","time":"2023-02-22T04:27:18+07:00","heading":188,"speed":18,"alt":1706,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35580000,"ignition":1,"fuellevel":93,"accu":27662,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:27:22.398 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:22.398 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:22.398 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:22.398 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20B6EED49F06296E69DA6A7BD81CC03175DE6BAD54D75A40381240BC0148FC9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:27:22.398 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:22.399 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20B6EED49F06296E69DA6A7BD81CC03175DE6BAD54D75A40381240BC0148FC9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:27:22.399 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:22.399 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=642b763b-0afa-4c84-b91b-ed1a15fa38a7, Duration=1ms)
+2023-02-21T21:27:22.399 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:22.395 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=af548170-6be5-4da6-b406-c85a708bc94a)
+2023-02-21T21:27:22.396 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=af548170-6be5-4da6-b406-c85a708bc94a, Duration=1ms)
+2023-02-21T21:27:22.398 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=642b763b-0afa-4c84-b91b-ed1a15fa38a7)
+2023-02-21T21:27:22.399 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=642b763b-0afa-4c84-b91b-ed1a15fa38a7, Duration=1ms)
+2023-02-21T21:27:22.980 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=6279928f-7189-4a98-a0b6-465d22de86da)
+2023-02-21T21:27:22.981 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=6279928f-7189-4a98-a0b6-465d22de86da, Duration=1ms)
+2023-02-21T21:27:22.979 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:22.980 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=6279928f-7189-4a98-a0b6-465d22de86da)
+2023-02-21T21:27:22.980 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:22.980 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3645466,"lat":-7.2115033,"server_time":"2023-02-22T04:27:22+07:00","time":"2023-02-22T04:27:20+07:00","heading":164,"speed":18,"alt":1706,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35580011,"ignition":1,"fuellevel":89,"accu":27637,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:27:22.980 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:22.980 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:22.980 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:22.980 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20B8EED49F0629FCFB315294D81CC0318D3743BB54D75A40381240A40148FC9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:27:22.980 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:22.980 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20B8EED49F0629FCFB315294D81CC0318D3743BB54D75A40381240A40148FC9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:27:22.980 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:22.981 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=6279928f-7189-4a98-a0b6-465d22de86da, Duration=1ms)
+2023-02-21T21:27:22.981 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:25.441 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ae596373-139d-4f0c-9d4d-f52f2e0bda9a)
+2023-02-21T21:27:25.443 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ae596373-139d-4f0c-9d4d-f52f2e0bda9a, Duration=1ms)
+2023-02-21T21:27:25.440 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:25.441 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ae596373-139d-4f0c-9d4d-f52f2e0bda9a)
+2023-02-21T21:27:25.442 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:25.442 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3645966,"lat":-7.2115916,"server_time":"2023-02-22T04:27:25+07:00","time":"2023-02-22T04:27:22+07:00","heading":141,"speed":21,"alt":1706,"sat":15,"event_id":0,"event_key":"-","g_value":null,"mileage":35580022,"ignition":1,"fuellevel":90,"accu":27622,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:27:25.442 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:25.442 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:25.442 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:25.442 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20BAEED49F0629EA6EE877ABD81CC031E64EFA8C55D75A403815408D0148FC9502AA010408011001B0010F, routing key:mp_event_decoder_filter
+2023-02-21T21:27:25.442 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:25.442 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20BAEED49F0629EA6EE877ABD81CC031E64EFA8C55D75A403815408D0148FC9502AA010408011001B0010F, routing key:mp_datalogger_incoming
+2023-02-21T21:27:25.442 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:25.443 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ae596373-139d-4f0c-9d4d-f52f2e0bda9a, Duration=1ms)
+2023-02-21T21:27:25.443 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:27.709 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=b048a403-dd86-4901-82b6-e43d3cdb60d7)
+2023-02-21T21:27:27.711 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=b048a403-dd86-4901-82b6-e43d3cdb60d7, Duration=1ms)
+2023-02-21T21:27:27.708 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:27.709 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=b048a403-dd86-4901-82b6-e43d3cdb60d7)
+2023-02-21T21:27:27.710 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:27.710 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3646983,"lat":-7.2116633,"server_time":"2023-02-22T04:27:27+07:00","time":"2023-02-22T04:27:24+07:00","heading":112,"speed":20,"alt":1707,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580036,"ignition":1,"fuellevel":86,"accu":27655,"gpsbatt":4013,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:27:27.710 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:27.710 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:27.710 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:27.710 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20BCEED49F0629C20D9D43BED81CC03109DA893757D75A403814407048FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:27:27.710 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:27.710 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010066000A640801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20BCEED49F0629C20D9D43BED81CC03109DA893757D75A403814407048FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:27:27.710 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:27.711 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=b048a403-dd86-4901-82b6-e43d3cdb60d7, Duration=1ms)
+2023-02-21T21:27:27.711 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:33.381 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:33.382 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=5dba521f-58bc-47c0-aab3-c24214772bd4)
+2023-02-21T21:27:33.383 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:33.383 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.364955,"lat":-7.211785,"server_time":"2023-02-22T04:27:33+07:00","time":"2023-02-22T04:27:30+07:00","heading":136,"speed":15,"alt":1705,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580069,"ignition":1,"fuellevel":205,"accu":27676,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:27:33.383 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:33.383 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:33.383 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:33.383 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C2EED49F06292922C32ADED81CC031BF60376C5BD75A40380F40880148FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:27:33.383 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:33.383 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C2EED49F06292922C32ADED81CC031BF60376C5BD75A40380F40880148FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:27:33.383 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:33.383 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=5dba521f-58bc-47c0-aab3-c24214772bd4, Duration=1ms)
+2023-02-21T21:27:33.384 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:33.382 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=5dba521f-58bc-47c0-aab3-c24214772bd4)
+2023-02-21T21:27:33.383 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=5dba521f-58bc-47c0-aab3-c24214772bd4, Duration=1ms)
+2023-02-21T21:27:35.590 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:35.592 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=81458b61-137b-4d88-a0b5-276843cae9ee)
+2023-02-21T21:27:35.592 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:35.592 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3649216,"lat":-7.211905,"server_time":"2023-02-22T04:27:35+07:00","time":"2023-02-22T04:27:32+07:00","heading":198,"speed":19,"alt":1705,"sat":16,"event_id":0,"event_key":"-","g_value":null,"mileage":35580084,"ignition":1,"fuellevel":105,"accu":27638,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:27:35.592 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:35.592 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:35.592 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:35.592 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C4EED49F06297E6FD39FFDD81CC031A86620E05AD75A40381340C60148FC9502AA010408011001B00110, routing key:mp_event_decoder_filter
+2023-02-21T21:27:35.592 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:35.593 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C4EED49F06297E6FD39FFDD81CC031A86620E05AD75A40381340C60148FC9502AA010408011001B00110, routing key:mp_datalogger_incoming
+2023-02-21T21:27:35.593 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:35.593 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=81458b61-137b-4d88-a0b5-276843cae9ee, Duration=2ms)
+2023-02-21T21:27:35.593 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:35.592 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=81458b61-137b-4d88-a0b5-276843cae9ee)
+2023-02-21T21:27:35.593 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=81458b61-137b-4d88-a0b5-276843cae9ee, Duration=2ms)
+2023-02-21T21:27:38.433 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=dd6270d2-b1ff-4cb1-9a25-f118a0549179)
+2023-02-21T21:27:38.434 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=dd6270d2-b1ff-4cb1-9a25-f118a0549179, Duration=1ms)
+2023-02-21T21:27:38.432 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:38.433 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=dd6270d2-b1ff-4cb1-9a25-f118a0549179)
+2023-02-21T21:27:38.433 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:38.433 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.36484,"lat":-7.212,"server_time":"2023-02-22T04:27:38+07:00","time":"2023-02-22T04:27:34+07:00","heading":220,"speed":23,"alt":1703,"sat":16,"event_id":0,"event_key":"-","g_value":null,"mileage":35580097,"ignition":1,"fuellevel":281,"accu":27648,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:27:38.434 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:38.434 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:27:38.434 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:27:38.434 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C6EED49F06290C022B8716D91CC0317311DF8959D75A40381740DC0148FC9502AA010408011001B00110, routing key:mp_event_decoder_filter
+2023-02-21T21:27:38.434 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:27:38.434 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C6EED49F06290C022B8716D91CC0317311DF8959D75A40381740DC0148FC9502AA010408011001B00110, routing key:mp_datalogger_incoming
+2023-02-21T21:27:38.434 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:27:38.434 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=dd6270d2-b1ff-4cb1-9a25-f118a0549179, Duration=1ms)
+2023-02-21T21:27:38.435 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:50.685 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=2ac128f3-aa15-4c10-af7b-419c3953c343)
+2023-02-21T21:27:50.685 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=2ac128f3-aa15-4c10-af7b-419c3953c343, Duration=1ms)
+2023-02-21T21:27:50.688 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=96037d74-6bf4-4665-971e-4a2cc33a1622)
+2023-02-21T21:27:50.690 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=96037d74-6bf4-4665-971e-4a2cc33a1622, Duration=1ms)
+2023-02-21T21:27:50.684 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:50.685 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=2ac128f3-aa15-4c10-af7b-419c3953c343)
+2023-02-21T21:27:50.685 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:50.685 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:27:50+07:00","time":"2023-02-22T04:27:03+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:27:50.685 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:50.685 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:27:50.685 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:27:50.685 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A7EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:27:50.685 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:27:50.685 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A7EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:27:50.685 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:27:50.685 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=2ac128f3-aa15-4c10-af7b-419c3953c343, Duration=1ms)
+2023-02-21T21:27:50.686 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:27:50.688 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:27:50.688 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=96037d74-6bf4-4665-971e-4a2cc33a1622)
+2023-02-21T21:27:50.688 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:27:50.689 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:27:50+07:00","time":"2023-02-22T04:27:33+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26012,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:27:50.689 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:27:50.689 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:27:50.689 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:27:50.689 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C5EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:27:50.689 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:27:50.689 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C5EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:27:50.689 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:27:50.690 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=96037d74-6bf4-4665-971e-4a2cc33a1622, Duration=1ms)
+2023-02-21T21:27:50.690 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:22.174 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:28:22.174 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=28eec017-3472-4f71-88fd-c4587f2e9735)
+2023-02-21T21:28:22.175 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:28:22.175 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.36285,"lat":-7.21462,"server_time":"2023-02-22T04:28:21+07:00","time":"2023-02-22T04:28:19+07:00","heading":253,"speed":24,"alt":1683,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580477,"ignition":1,"fuellevel":115,"accu":27690,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:28:22.175 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:28:22.175 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:28:22.175 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:28:22.175 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F3EED49F062924456458C5DB1CC031A1D634EF38D75A40381840FD0148FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:28:22.175 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:28:22.175 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F3EED49F062924456458C5DB1CC031A1D634EF38D75A40381840FD0148FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:28:22.175 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:28:22.175 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=28eec017-3472-4f71-88fd-c4587f2e9735, Duration=1ms)
+2023-02-21T21:28:22.176 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:22.181 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:28:22.181 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:28:22.182 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:28:22.183 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:28:22.183 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=79d28a0f-739b-4f1a-ba01-9dc0dabb3961)
+2023-02-21T21:28:22.183 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e77cfb2a-f9c2-421c-882f-c8502f914e1d)
+2023-02-21T21:28:22.183 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=acae1650-8a8c-41d6-9713-c1abc645e339)
+2023-02-21T21:28:22.183 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:28:22.184 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3631733,"lat":-7.2144433,"server_time":"2023-02-22T04:28:21+07:00","time":"2023-02-22T04:28:13+07:00","heading":209,"speed":27,"alt":1687,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35580435,"ignition":1,"fuellevel":89,"accu":27711,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:28:22.184 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:28:22.184 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:28:22.184 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:28:22.184 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20EDEED49F0629A162410697DB1CC031F291393B3ED75A40381B40D10148FC9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:28:22.184 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:28:22.184 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20EDEED49F0629A162410697DB1CC031F291393B3ED75A40381B40D10148FC9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:28:22.184 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:28:22.184 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=79d28a0f-739b-4f1a-ba01-9dc0dabb3961, Duration=3ms)
+2023-02-21T21:28:22.184 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:22.185 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:28:22.185 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3630816,"lat":-7.2145366,"server_time":"2023-02-22T04:28:21+07:00","time":"2023-02-22T04:28:15+07:00","heading":233,"speed":24,"alt":1686,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35580450,"ignition":1,"fuellevel":95,"accu":27713,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:28:22.185 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:28:22.185 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:28:22.185 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:28:22.185 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20EFEED49F06291D2E837BAFDB1CC031E1719BBA3CD75A40381840E90148FC9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:28:22.186 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:28:22.186 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20EFEED49F06291D2E837BAFDB1CC031E1719BBA3CD75A40381840E90148FC9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:28:22.186 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:28:22.186 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e77cfb2a-f9c2-421c-882f-c8502f914e1d, Duration=4ms)
+2023-02-21T21:28:22.186 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:22.186 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:28:22.187 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3640049,"lat":-7.2128399,"server_time":"2023-02-22T04:28:21+07:00","time":"2023-02-22T04:27:50+07:00","heading":203,"speed":33,"alt":1694,"sat":11,"event_id":0,"event_key":"-","g_value":null,"mileage":35580230,"ignition":1,"fuellevel":87,"accu":27683,"gpsbatt":4013,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:28:22.187 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:28:22.187 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:28:22.187 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:28:22.187 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20D6EED49F0629B922E7B3F2D91CC0315C4535DB4BD75A40382140CB0148FC9502AA010408011001B0010B, routing key:mp_event_decoder_filter
+2023-02-21T21:28:22.187 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:28:22.187 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20D6EED49F0629B922E7B3F2D91CC0315C4535DB4BD75A40382140CB0148FC9502AA010408011001B0010B, routing key:mp_datalogger_incoming
+2023-02-21T21:28:22.187 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:28:22.187 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=acae1650-8a8c-41d6-9713-c1abc645e339, Duration=5ms)
+2023-02-21T21:28:22.187 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:22.188 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d952a1af-523c-4631-9785-46c05f1db056)
+2023-02-21T21:28:22.188 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:28:22.189 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3632333,"lat":-7.2141733,"server_time":"2023-02-22T04:28:21+07:00","time":"2023-02-22T04:28:09+07:00","heading":181,"speed":28,"alt":1690,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35580404,"ignition":1,"fuellevel":86,"accu":27713,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:28:22.189 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:28:22.189 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:28:22.189 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:28:22.189 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E9EED49F0629A1B4DC3E50DB1CC0315D14E2363FD75A40381C40B50148FC9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:28:22.189 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:28:22.189 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E9EED49F0629A1B4DC3E50DB1CC0315D14E2363FD75A40381C40B50148FC9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:28:22.189 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:28:22.189 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d952a1af-523c-4631-9785-46c05f1db056, Duration=6ms)
+2023-02-21T21:28:22.189 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:22.174 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=28eec017-3472-4f71-88fd-c4587f2e9735)
+2023-02-21T21:28:22.175 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=28eec017-3472-4f71-88fd-c4587f2e9735, Duration=1ms)
+2023-02-21T21:28:22.183 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=79d28a0f-739b-4f1a-ba01-9dc0dabb3961)
+2023-02-21T21:28:22.183 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e77cfb2a-f9c2-421c-882f-c8502f914e1d)
+2023-02-21T21:28:22.183 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=acae1650-8a8c-41d6-9713-c1abc645e339)
+2023-02-21T21:28:22.184 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=79d28a0f-739b-4f1a-ba01-9dc0dabb3961, Duration=3ms)
+2023-02-21T21:28:22.186 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e77cfb2a-f9c2-421c-882f-c8502f914e1d, Duration=4ms)
+2023-02-21T21:28:22.187 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=acae1650-8a8c-41d6-9713-c1abc645e339, Duration=5ms)
+2023-02-21T21:28:22.188 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d952a1af-523c-4631-9785-46c05f1db056)
+2023-02-21T21:28:22.189 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d952a1af-523c-4631-9785-46c05f1db056, Duration=6ms)
+2023-02-21T21:28:49.556 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:28:49.556 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=fbbd4700-f686-4eb6-a29d-6bb67440df1a)
+2023-02-21T21:28:49.558 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:28:49.558 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:28:49+07:00","time":"2023-02-22T04:28:03+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26012,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:28:49.558 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:28:49.559 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:28:49.559 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:28:49.559 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E3EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:28:49.559 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:28:49.559 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E3EED49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:28:49.559 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:28:49.559 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=fbbd4700-f686-4eb6-a29d-6bb67440df1a, Duration=3ms)
+2023-02-21T21:28:49.559 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:49.560 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:28:49.561 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ca790964-a2eb-4fc2-bf81-41ef0795378c)
+2023-02-21T21:28:49.561 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:28:49.561 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:28:49+07:00","time":"2023-02-22T04:28:34+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:28:49.562 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:28:49.562 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:28:49.562 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:28:49.562 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2082EFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:28:49.562 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:28:49.562 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2082EFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:28:49.562 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:28:49.562 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ca790964-a2eb-4fc2-bf81-41ef0795378c, Duration=1ms)
+2023-02-21T21:28:49.562 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:28:49.556 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=fbbd4700-f686-4eb6-a29d-6bb67440df1a)
+2023-02-21T21:28:49.559 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=fbbd4700-f686-4eb6-a29d-6bb67440df1a, Duration=3ms)
+2023-02-21T21:28:49.561 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ca790964-a2eb-4fc2-bf81-41ef0795378c)
+2023-02-21T21:28:49.562 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ca790964-a2eb-4fc2-bf81-41ef0795378c, Duration=1ms)
+2023-02-21T21:29:47.368 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:29:47.369 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ce4695d9-4dc8-42e4-b2bc-178858140b05)
+2023-02-21T21:29:47.370 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:29:47.370 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:29:47+07:00","time":"2023-02-22T04:29:34+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:29:47.370 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:29:47.370 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:29:47.370 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:29:47.370 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20BEEFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:29:47.370 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:29:47.370 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20BEEFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:29:47.370 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:29:47.370 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ce4695d9-4dc8-42e4-b2bc-178858140b05, Duration=2ms)
+2023-02-21T21:29:47.371 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:29:47.375 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:29:47.376 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=1a2c9296-0ab7-48fc-9887-fb220dfcae19)
+2023-02-21T21:29:47.376 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:29:47.376 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:29:47+07:00","time":"2023-02-22T04:29:04+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:29:47.376 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:29:47.376 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:29:47.376 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:29:47.376 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A0EFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:29:47.376 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:29:47.376 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A0EFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:29:47.377 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:29:47.377 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=1a2c9296-0ab7-48fc-9887-fb220dfcae19, Duration=1ms)
+2023-02-21T21:29:47.378 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:29:47.369 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ce4695d9-4dc8-42e4-b2bc-178858140b05)
+2023-02-21T21:29:47.370 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ce4695d9-4dc8-42e4-b2bc-178858140b05, Duration=2ms)
+2023-02-21T21:29:47.376 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=1a2c9296-0ab7-48fc-9887-fb220dfcae19)
+2023-02-21T21:29:47.377 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=1a2c9296-0ab7-48fc-9887-fb220dfcae19, Duration=1ms)
+2023-02-21T21:30:14.558 [Debug] Request successfully matched the route with name '' and template 'admin/warmup'
+2023-02-21T21:30:24.732 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=c82fd9d1-77a9-4480-80a2-7eec22cee9d8)
+2023-02-21T21:30:24.733 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=c82fd9d1-77a9-4480-80a2-7eec22cee9d8, Duration=2ms)
+2023-02-21T21:30:24.736 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f850b0b7-e513-49ac-ae99-645e1107b56d)
+2023-02-21T21:30:24.736 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f850b0b7-e513-49ac-ae99-645e1107b56d, Duration=1ms)
+2023-02-21T21:30:24.742 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=2a39a729-8ea1-4725-b00e-1775ddcc2b5f)
+2023-02-21T21:30:24.743 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=2a39a729-8ea1-4725-b00e-1775ddcc2b5f, Duration=4ms)
+2023-02-21T21:30:24.745 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=bc6176cc-087f-483f-bb44-c8318cd350c6)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=573ce616-de9f-41af-b67c-2d2b762e4dd5)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=cc617392-8d0d-4462-8075-2ffcf4b9f3b7)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e3ded0b1-e22b-4fe8-a8c4-4242d25db693)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ee989e26-136f-4f93-b9c5-561caf382a39)
+2023-02-21T21:30:24.747 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=bc6176cc-087f-483f-bb44-c8318cd350c6, Duration=6ms)
+2023-02-21T21:30:24.749 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=573ce616-de9f-41af-b67c-2d2b762e4dd5, Duration=7ms)
+2023-02-21T21:30:24.750 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=cc617392-8d0d-4462-8075-2ffcf4b9f3b7, Duration=8ms)
+2023-02-21T21:30:24.751 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e3ded0b1-e22b-4fe8-a8c4-4242d25db693, Duration=9ms)
+2023-02-21T21:30:24.753 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ee989e26-136f-4f93-b9c5-561caf382a39, Duration=10ms)
+2023-02-21T21:30:24.782 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=b7a394f8-de98-432d-b0d9-2842c336128e)
+2023-02-21T21:30:24.783 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=b7a394f8-de98-432d-b0d9-2842c336128e, Duration=1ms)
+2023-02-21T21:30:24.789 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f9fb5fb4-c2c2-41cc-bb8a-76d8092c717e)
+2023-02-21T21:30:24.789 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f9fb5fb4-c2c2-41cc-bb8a-76d8092c717e, Duration=1ms)
+2023-02-21T21:30:24.731 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.731 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=c82fd9d1-77a9-4480-80a2-7eec22cee9d8)
+2023-02-21T21:30:24.732 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.732 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3598483,"lat":-7.2189866,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:30:03+07:00","heading":184,"speed":21,"alt":1651,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581260,"ignition":1,"fuellevel":86,"accu":27716,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:24.732 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.732 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.732 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.732 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20DBEFD49F0629870CF5053EE01CC0315B012AC107D75A40381540B80148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.733 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.733 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20DBEFD49F0629870CF5053EE01CC0315B012AC107D75A40381540B80148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.733 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.733 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=c82fd9d1-77a9-4480-80a2-7eec22cee9d8, Duration=2ms)
+2023-02-21T21:30:24.733 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.735 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.736 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f850b0b7-e513-49ac-ae99-645e1107b56d)
+2023-02-21T21:30:24.736 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.736 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3597983,"lat":-7.2190883,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:30:05+07:00","heading":209,"speed":23,"alt":1650,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581278,"ignition":1,"fuellevel":149,"accu":27712,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:24.736 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.736 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.736 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.736 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20DDEFD49F0629B5BEEDAE58E01CC03102EA72EF06D75A40381740D10148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.736 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.736 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20DDEFD49F0629B5BEEDAE58E01CC03102EA72EF06D75A40381740D10148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.736 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.736 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f850b0b7-e513-49ac-ae99-645e1107b56d, Duration=1ms)
+2023-02-21T21:30:24.737 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.739 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.740 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.741 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.741 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.741 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.742 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.742 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=2a39a729-8ea1-4725-b00e-1775ddcc2b5f)
+2023-02-21T21:30:24.742 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.742 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3601333,"lat":-7.2161433,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:13+07:00","heading":248,"speed":27,"alt":1662,"sat":12,"event_id":0,"event_key":"-","g_value":null,"mileage":35580885,"ignition":1,"fuellevel":86,"accu":27704,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":2},"another_info":null}
+2023-02-21T21:30:24.743 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.743 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.743 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.743 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A9EFD49F062981FF52AB54DD1CC031D66C8A6C0CD75A40381B40F80148FC9502AA010408011001B0010C, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.743 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.743 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A9EFD49F062981FF52AB54DD1CC031D66C8A6C0CD75A40381B40F80148FC9502AA010408011001B0010C, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.743 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.743 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=2a39a729-8ea1-4725-b00e-1775ddcc2b5f, Duration=4ms)
+2023-02-21T21:30:24.743 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.745 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=bc6176cc-087f-483f-bb44-c8318cd350c6)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=573ce616-de9f-41af-b67c-2d2b762e4dd5)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=cc617392-8d0d-4462-8075-2ffcf4b9f3b7)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e3ded0b1-e22b-4fe8-a8c4-4242d25db693)
+2023-02-21T21:30:24.746 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=ee989e26-136f-4f93-b9c5-561caf382a39)
+2023-02-21T21:30:24.746 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.746 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3596516,"lat":-7.2195033,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:30:11+07:00","heading":188,"speed":32,"alt":1650,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581318,"ignition":1,"fuellevel":86,"accu":27713,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:24.747 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.747 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.747 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.747 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E3EFD49F0629D1741B79C5E01CC03110FD248804D75A40382040BC0148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.747 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.747 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E3EFD49F0629D1741B79C5E01CC03110FD248804D75A40382040BC0148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.747 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.747 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=bc6176cc-087f-483f-bb44-c8318cd350c6, Duration=6ms)
+2023-02-21T21:30:24.747 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.748 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.748 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.35918,"lat":-7.21813,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:47+07:00","heading":145,"speed":23,"alt":1652,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35581142,"ignition":1,"fuellevel":86,"accu":27714,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":2},"another_info":null}
+2023-02-21T21:30:24.748 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.748 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.748 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.748 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20CBEFD49F06291E1B81785DDF1CC03125581CCEFCD65A40381740910148FD9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.748 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.748 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20CBEFD49F06291E1B81785DDF1CC03125581CCEFCD65A40381740910148FD9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.748 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.749 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=573ce616-de9f-41af-b67c-2d2b762e4dd5, Duration=7ms)
+2023-02-21T21:30:24.749 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.749 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.749 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3599716,"lat":-7.2162616,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:15+07:00","heading":224,"speed":26,"alt":1661,"sat":11,"event_id":0,"event_key":"-","g_value":null,"mileage":35580907,"ignition":1,"fuellevel":86,"accu":27699,"gpsbatt":4013,"electricity_source":"accu","gsm_signal":2},"another_info":null}
+2023-02-21T21:30:24.749 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.749 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.750 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.750 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20ABEFD49F0629C5854DAE73DD1CC031485F52C609D75A40381A40E00148FC9502AA010408011001B0010B, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.750 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.750 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20ABEFD49F0629C5854DAE73DD1CC031485F52C609D75A40381A40E00148FC9502AA010408011001B0010B, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.750 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.750 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=cc617392-8d0d-4462-8075-2ffcf4b9f3b7, Duration=8ms)
+2023-02-21T21:30:24.750 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.751 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.751 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3596616,"lat":-7.21976,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:30:15+07:00","heading":168,"speed":32,"alt":1650,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581356,"ignition":1,"fuellevel":86,"accu":27722,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:24.751 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.751 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.751 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.751 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E7EFD49F062937E0F3C308E11CC031216816B204D75A40382040A80148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.751 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.751 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20E7EFD49F062937E0F3C308E11CC031216816B204D75A40382040A80148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.751 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.751 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e3ded0b1-e22b-4fe8-a8c4-4242d25db693, Duration=9ms)
+2023-02-21T21:30:24.751 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.752 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.752 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3605766,"lat":-7.216115,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:06+07:00","heading":258,"speed":17,"alt":1666,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580835,"ignition":1,"fuellevel":202,"accu":27722,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":2},"another_info":null}
+2023-02-21T21:30:24.752 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.752 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.752 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.752 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A2EFD49F06293EB324404DDD1CC031FC2CE0AF13D75A40381140820248FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.752 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.752 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A2EFD49F06293EB324404DDD1CC031FC2CE0AF13D75A40381140820248FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.752 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.753 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=ee989e26-136f-4f93-b9c5-561caf382a39, Duration=10ms)
+2023-02-21T21:30:24.753 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.781 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.782 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=b7a394f8-de98-432d-b0d9-2842c336128e)
+2023-02-21T21:30:24.782 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.782 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.359815,"lat":-7.2165,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:19+07:00","heading":204,"speed":29,"alt":1659,"sat":11,"event_id":0,"event_key":"-","g_value":null,"mileage":35580939,"ignition":1,"fuellevel":102,"accu":27703,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":2},"another_info":null}
+2023-02-21T21:30:24.782 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.783 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.783 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.783 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20AFEFD49F062904560E2DB2DD1CC0310E677E3507D75A40381D40CC0148FC9502AA010408011001B0010B, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.783 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.783 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20AFEFD49F062904560E2DB2DD1CC0310E677E3507D75A40381D40CC0148FC9502AA010408011001B0010B, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.783 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.783 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=b7a394f8-de98-432d-b0d9-2842c336128e, Duration=1ms)
+2023-02-21T21:30:24.783 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:24.788 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:24.789 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f9fb5fb4-c2c2-41cc-bb8a-76d8092c717e)
+2023-02-21T21:30:24.789 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:24.789 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3591266,"lat":-7.2178416,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:42+07:00","heading":178,"speed":19,"alt":1654,"sat":12,"event_id":0,"event_key":"-","g_value":null,"mileage":35581108,"ignition":1,"fuellevel":98,"accu":27722,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":2},"another_info":null}
+2023-02-21T21:30:24.789 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:24.789 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:24.789 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:24.789 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C6EFD49F062950D54EDE11DF1CC031EA8722EEFBD65A40381340B20148FD9502AA010408011001B0010C, routing key:mp_event_decoder_filter
+2023-02-21T21:30:24.789 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:24.789 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20C6EFD49F062950D54EDE11DF1CC031EA8722EEFBD65A40381340B20148FD9502AA010408011001B0010C, routing key:mp_datalogger_incoming
+2023-02-21T21:30:24.789 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:24.789 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f9fb5fb4-c2c2-41cc-bb8a-76d8092c717e, Duration=1ms)
+2023-02-21T21:30:24.790 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:25.068 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=80755090-d9ac-45b0-ad4d-e6afae859275)
+2023-02-21T21:30:25.072 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=80755090-d9ac-45b0-ad4d-e6afae859275, Duration=4ms)
+2023-02-21T21:30:25.081 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=26b55753-3c33-4ebf-8ae3-9cb7ffd27751)
+2023-02-21T21:30:25.082 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=26b55753-3c33-4ebf-8ae3-9cb7ffd27751, Duration=1ms)
+2023-02-21T21:30:25.084 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=baccf188-a0fb-424b-92b3-73ab9f4d8f30)
+2023-02-21T21:30:25.085 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=baccf188-a0fb-424b-92b3-73ab9f4d8f30, Duration=1ms)
+2023-02-21T21:30:25.107 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f1a8bb64-97c4-4ca8-a977-32face8fb31a)
+2023-02-21T21:30:25.108 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f1a8bb64-97c4-4ca8-a977-32face8fb31a, Duration=1ms)
+2023-02-21T21:30:25.068 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:25.068 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=80755090-d9ac-45b0-ad4d-e6afae859275)
+2023-02-21T21:30:25.071 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:25.071 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3606366,"lat":-7.2161116,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:05+07:00","heading":224,"speed":15,"alt":1668,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580829,"ignition":1,"fuellevel":124,"accu":27719,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":2},"another_info":null}
+2023-02-21T21:30:25.071 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:25.071 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:25.072 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:25.072 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A1EFD49F06291A25F95B4CDD1CC03167AF88AB14D75A40380F40E00148FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:25.072 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:25.072 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20A1EFD49F06291A25F95B4CDD1CC03167AF88AB14D75A40380F40E00148FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:25.072 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:25.072 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=80755090-d9ac-45b0-ad4d-e6afae859275, Duration=4ms)
+2023-02-21T21:30:25.072 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:25.080 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:25.081 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=26b55753-3c33-4ebf-8ae3-9cb7ffd27751)
+2023-02-21T21:30:25.081 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:25.081 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.360695,"lat":-7.2157616,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:28:58+07:00","heading":226,"speed":22,"alt":1670,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35580787,"ignition":1,"fuellevel":89,"accu":27718,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:25.081 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:25.081 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:25.081 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:25.081 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D209AEFD49F062938EEDE9BF0DC1CC0312B357BA015D75A40381640E20148FC9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:30:25.081 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:25.081 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D209AEFD49F062938EEDE9BF0DC1CC0312B357BA015D75A40381640E20148FC9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:30:25.082 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:25.082 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=26b55753-3c33-4ebf-8ae3-9cb7ffd27751, Duration=1ms)
+2023-02-21T21:30:25.082 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:25.083 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:25.084 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=baccf188-a0fb-424b-92b3-73ab9f4d8f30)
+2023-02-21T21:30:25.084 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:25.084 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3606766,"lat":-7.2158766,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:29:00+07:00","heading":197,"speed":20,"alt":1670,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580800,"ignition":1,"fuellevel":86,"accu":27713,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:25.084 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:25.084 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:25.084 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:25.084 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D209CEFD49F0629FEE263C10EDD1CC031AE5B4E5315D75A40381440C50148FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:25.084 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:25.085 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D209CEFD49F0629FEE263C10EDD1CC031AE5B4E5315D75A40381440C50148FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:25.085 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:25.085 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=baccf188-a0fb-424b-92b3-73ab9f4d8f30, Duration=1ms)
+2023-02-21T21:30:25.085 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:25.106 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:25.107 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f1a8bb64-97c4-4ca8-a977-32face8fb31a)
+2023-02-21T21:30:25.107 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:25.107 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3607816,"lat":-7.21566,"server_time":"2023-02-22T04:30:24+07:00","time":"2023-02-22T04:28:56+07:00","heading":246,"speed":19,"alt":1671,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35580772,"ignition":1,"fuellevel":88,"accu":27666,"gpsbatt":4002,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:25.108 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:25.108 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:25.108 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:25.108 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2098EFD49F0629B0389CF9D5DC1CC031E83FB50B17D75A40381340F60148FC9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:30:25.108 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:25.108 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2098EFD49F0629B0389CF9D5DC1CC031E83FB50B17D75A40381340F60148FC9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:30:25.108 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:25.108 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f1a8bb64-97c4-4ca8-a977-32face8fb31a, Duration=1ms)
+2023-02-21T21:30:25.108 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.314 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:27.315 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:27.316 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:27.316 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:27.317 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=aaf461ff-963c-40f1-ade6-0906b53553db)
+2023-02-21T21:30:27.317 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:27.317 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3618766,"lat":-7.2147366,"server_time":"2023-02-22T04:30:27+07:00","time":"2023-02-22T04:28:35+07:00","heading":214,"speed":19,"alt":1677,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580596,"ignition":1,"fuellevel":117,"accu":27706,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:27.317 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:27.317 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:27.317 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:27.318 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2083EFD49F0629560449E9E3DB1CC031038C78FC28D75A40381340D60148FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:27.318 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:27.318 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2083EFD49F0629560449E9E3DB1CC031038C78FC28D75A40381340D60148FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:27.318 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:27.318 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=aaf461ff-963c-40f1-ade6-0906b53553db, Duration=3ms)
+2023-02-21T21:30:27.319 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.320 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=29bb5cb9-afb9-4002-bce4-aee0dceb2bd5)
+2023-02-21T21:30:27.320 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=1e703381-045d-473e-aecf-ea1814d403ea)
+2023-02-21T21:30:27.320 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=14351ae5-42c7-48f1-a3c9-a8888ae2b569)
+2023-02-21T21:30:27.320 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:27.320 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3624583,"lat":-7.2145683,"server_time":"2023-02-22T04:30:27+07:00","time":"2023-02-22T04:28:24+07:00","heading":276,"speed":30,"alt":1682,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580520,"ignition":1,"fuellevel":86,"accu":27713,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:30:27.321 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:27.321 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:27.321 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:27.321 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F8EED49F06298408DDCAB7DB1CC0317B2A4C8432D75A40381E40940248FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:27.321 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:27.321 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F8EED49F06298408DDCAB7DB1CC0317B2A4C8432D75A40381E40940248FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:27.321 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:27.321 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=29bb5cb9-afb9-4002-bce4-aee0dceb2bd5, Duration=5ms)
+2023-02-21T21:30:27.322 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.322 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:27.322 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3619433,"lat":-7.2146216,"server_time":"2023-02-22T04:30:27+07:00","time":"2023-02-22T04:28:33+07:00","heading":236,"speed":16,"alt":1678,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580582,"ignition":1,"fuellevel":86,"accu":27704,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:27.322 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:27.323 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:27.323 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:27.323 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2081EFD49F06298F0FC4C3C5DB1CC03167203B142AD75A40381040EC0148FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:27.323 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:27.323 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2081EFD49F06298F0FC4C3C5DB1CC03167203B142AD75A40381040EC0148FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:27.323 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:27.323 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=1e703381-045d-473e-aecf-ea1814d403ea, Duration=7ms)
+2023-02-21T21:30:27.323 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.324 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:27.324 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.362095,"lat":-7.21453,"server_time":"2023-02-22T04:30:27+07:00","time":"2023-02-22T04:28:30+07:00","heading":271,"speed":18,"alt":1680,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35580562,"ignition":1,"fuellevel":86,"accu":27709,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:30:27.324 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:27.325 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:27.325 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:27.325 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20FEEED49F0629240B98C0ADDB1CC031E3C281902CD75A403812408F0248FC9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:30:27.325 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:27.325 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20FEEED49F0629240B98C0ADDB1CC031E3C281902CD75A403812408F0248FC9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:30:27.325 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:27.325 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=14351ae5-42c7-48f1-a3c9-a8888ae2b569, Duration=8ms)
+2023-02-21T21:30:27.325 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.327 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:27.327 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:27.329 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:27.330 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=2d906230-b64e-4734-b26d-6a2b2dfa2702)
+2023-02-21T21:30:27.330 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=bedd008a-76bb-4f56-a7dc-1befde12afe6)
+2023-02-21T21:30:27.330 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:27.330 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.36116,"lat":-7.2155966,"server_time":"2023-02-22T04:30:27+07:00","time":"2023-02-22T04:28:50+07:00","heading":268,"speed":25,"alt":1673,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580729,"ignition":1,"fuellevel":102,"accu":27710,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:27.330 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:27.330 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:27.330 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:27.330 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2092EFD49F0629E283E85AC5DC1CC031E527D53E1DD75A403819408C0248FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:27.331 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:27.331 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2092EFD49F0629E283E85AC5DC1CC031E527D53E1DD75A403819408C0248FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:27.331 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:27.331 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=2d906230-b64e-4734-b26d-6a2b2dfa2702, Duration=3ms)
+2023-02-21T21:30:27.331 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.331 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:27.331 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3613866,"lat":-7.21555,"server_time":"2023-02-22T04:30:27+07:00","time":"2023-02-22T04:28:47+07:00","heading":238,"speed":25,"alt":1673,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35580703,"ignition":1,"fuellevel":118,"accu":27707,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:27.332 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:27.332 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:27.332 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:27.332 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D208FEFD49F0629789CA223B9DC1CC0319C0D43F520D75A40381940EE0148FC9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:27.332 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:27.332 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D208FEFD49F0629789CA223B9DC1CC0319C0D43F520D75A40381940EE0148FC9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:27.332 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:27.332 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=bedd008a-76bb-4f56-a7dc-1befde12afe6, Duration=4ms)
+2023-02-21T21:30:27.332 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.333 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=3e3be5b5-957f-47ec-91a4-c69788ed97db)
+2023-02-21T21:30:27.333 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:27.333 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3617249,"lat":-7.2150466,"server_time":"2023-02-22T04:30:27+07:00","time":"2023-02-22T04:28:39+07:00","heading":207,"speed":30,"alt":1675,"sat":13,"event_id":0,"event_key":"-","g_value":null,"mileage":35580635,"ignition":1,"fuellevel":89,"accu":27692,"gpsbatt":4012,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:27.333 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:27.333 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:27.334 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:27.334 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2087EFD49F0629C776082D35DC1CC03187E9318026D75A40381E40CF0148FC9502AA010408011001B0010D, routing key:mp_event_decoder_filter
+2023-02-21T21:30:27.334 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:27.334 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2087EFD49F0629C776082D35DC1CC03187E9318026D75A40381E40CF0148FC9502AA010408011001B0010D, routing key:mp_datalogger_incoming
+2023-02-21T21:30:27.334 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:27.334 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=3e3be5b5-957f-47ec-91a4-c69788ed97db, Duration=4ms)
+2023-02-21T21:30:27.334 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:27.317 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=aaf461ff-963c-40f1-ade6-0906b53553db)
+2023-02-21T21:30:27.318 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=aaf461ff-963c-40f1-ade6-0906b53553db, Duration=3ms)
+2023-02-21T21:30:27.320 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=29bb5cb9-afb9-4002-bce4-aee0dceb2bd5)
+2023-02-21T21:30:27.320 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=1e703381-045d-473e-aecf-ea1814d403ea)
+2023-02-21T21:30:27.320 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=14351ae5-42c7-48f1-a3c9-a8888ae2b569)
+2023-02-21T21:30:27.321 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=29bb5cb9-afb9-4002-bce4-aee0dceb2bd5, Duration=5ms)
+2023-02-21T21:30:27.323 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=1e703381-045d-473e-aecf-ea1814d403ea, Duration=7ms)
+2023-02-21T21:30:27.325 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=14351ae5-42c7-48f1-a3c9-a8888ae2b569, Duration=8ms)
+2023-02-21T21:30:27.330 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=2d906230-b64e-4734-b26d-6a2b2dfa2702)
+2023-02-21T21:30:27.330 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=bedd008a-76bb-4f56-a7dc-1befde12afe6)
+2023-02-21T21:30:27.331 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=2d906230-b64e-4734-b26d-6a2b2dfa2702, Duration=3ms)
+2023-02-21T21:30:27.332 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=bedd008a-76bb-4f56-a7dc-1befde12afe6, Duration=4ms)
+2023-02-21T21:30:27.333 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=3e3be5b5-957f-47ec-91a4-c69788ed97db)
+2023-02-21T21:30:27.334 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=3e3be5b5-957f-47ec-91a4-c69788ed97db, Duration=4ms)
+2023-02-21T21:30:37.041 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:37.041 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=91b0c6aa-46d2-4db0-a428-a8f4f8eda49c)
+2023-02-21T21:30:37.042 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:37.042 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3598483,"lat":-7.2210066,"server_time":"2023-02-22T04:30:36+07:00","time":"2023-02-22T04:30:33+07:00","heading":165,"speed":22,"alt":1647,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581498,"ignition":1,"fuellevel":138,"accu":27720,"gpsbatt":4013,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:30:37.042 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:37.042 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:37.042 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:37.042 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F9EFD49F0629F5CCDC8D4FE21CC0315B012AC107D75A40381640A50148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:37.042 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:37.042 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F9EFD49F0629F5CCDC8D4FE21CC0315B012AC107D75A40381640A50148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:37.042 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:37.043 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=91b0c6aa-46d2-4db0-a428-a8f4f8eda49c, Duration=1ms)
+2023-02-21T21:30:37.043 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:37.041 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=91b0c6aa-46d2-4db0-a428-a8f4f8eda49c)
+2023-02-21T21:30:37.043 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=91b0c6aa-46d2-4db0-a428-a8f4f8eda49c, Duration=1ms)
+2023-02-21T21:30:39.275 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:39.277 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=92e3b61a-4982-4d45-a43f-0de829639c23)
+2023-02-21T21:30:39.277 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:39.277 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3598466,"lat":-7.2211033,"server_time":"2023-02-22T04:30:38+07:00","time":"2023-02-22T04:30:35+07:00","heading":191,"speed":21,"alt":1649,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581509,"ignition":1,"fuellevel":247,"accu":27718,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:30:39.277 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:39.277 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:39.277 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:39.277 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20FBEFD49F062995264AE768E21CC031EAA408BA07D75A40381540BF0148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:39.277 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:39.278 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20FBEFD49F062995264AE768E21CC031EAA408BA07D75A40381540BF0148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:39.278 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:39.278 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=92e3b61a-4982-4d45-a43f-0de829639c23, Duration=2ms)
+2023-02-21T21:30:39.278 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:39.277 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=92e3b61a-4982-4d45-a43f-0de829639c23)
+2023-02-21T21:30:39.278 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=92e3b61a-4982-4d45-a43f-0de829639c23, Duration=2ms)
+2023-02-21T21:30:41.902 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:41.902 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d1400d23-e490-466e-823f-f44a866bc325)
+2023-02-21T21:30:41.902 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:41.903 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.359755,"lat":-7.2212833,"server_time":"2023-02-22T04:30:41+07:00","time":"2023-02-22T04:30:38+07:00","heading":211,"speed":29,"alt":1648,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581531,"ignition":1,"fuellevel":89,"accu":27699,"gpsbatt":4009,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:30:41.903 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:41.903 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:41.903 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:41.903 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20FEEFD49F0629949AE21698E21CC031A4E4D53906D75A40381D40D30148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:41.903 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:41.903 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20FEEFD49F0629949AE21698E21CC031A4E4D53906D75A40381D40D30148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:41.903 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:41.903 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d1400d23-e490-466e-823f-f44a866bc325, Duration=1ms)
+2023-02-21T21:30:41.903 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:41.902 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=d1400d23-e490-466e-823f-f44a866bc325)
+2023-02-21T21:30:41.903 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=d1400d23-e490-466e-823f-f44a866bc325, Duration=1ms)
+2023-02-21T21:30:51.245 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e8f70549-6045-4fea-82fe-e7f89b2ed149)
+2023-02-21T21:30:51.246 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e8f70549-6045-4fea-82fe-e7f89b2ed149, Duration=1ms)
+2023-02-21T21:30:51.244 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:51.245 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=e8f70549-6045-4fea-82fe-e7f89b2ed149)
+2023-02-21T21:30:51.245 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:51.245 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3594516,"lat":-7.2218133,"server_time":"2023-02-22T04:30:50+07:00","time":"2023-02-22T04:30:47+07:00","heading":236,"speed":21,"alt":1649,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581600,"ignition":1,"fuellevel":86,"accu":27709,"gpsbatt":4011,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:30:51.245 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:51.245 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:30:51.245 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:30:51.245 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2087F0D49F06297745950623E31CC031AC9F484101D75A40381540EC0148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:30:51.245 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:30:51.246 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2087F0D49F06297745950623E31CC031AC9F484101D75A40381540EC0148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:30:51.246 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:30:51.246 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=e8f70549-6045-4fea-82fe-e7f89b2ed149, Duration=1ms)
+2023-02-21T21:30:51.246 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:55.218 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=067d98ee-6a46-4a7b-b519-5ef942b2e89a)
+2023-02-21T21:30:55.219 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=067d98ee-6a46-4a7b-b519-5ef942b2e89a, Duration=1ms)
+2023-02-21T21:30:55.224 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=08b37787-5450-4b64-a565-a2d2eee0dcf4)
+2023-02-21T21:30:55.225 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=08b37787-5450-4b64-a565-a2d2eee0dcf4, Duration=1ms)
+2023-02-21T21:30:55.217 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:55.218 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=067d98ee-6a46-4a7b-b519-5ef942b2e89a)
+2023-02-21T21:30:55.218 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:55.218 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:30:54+07:00","time":"2023-02-22T04:30:04+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:55.218 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:55.218 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:30:55.219 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:30:55.219 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20DCEFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:30:55.219 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:30:55.219 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20DCEFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:30:55.219 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:30:55.219 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=067d98ee-6a46-4a7b-b519-5ef942b2e89a, Duration=1ms)
+2023-02-21T21:30:55.219 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:30:55.223 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:30:55.224 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=08b37787-5450-4b64-a565-a2d2eee0dcf4)
+2023-02-21T21:30:55.224 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:30:55.224 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:30:54+07:00","time":"2023-02-22T04:30:33+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:30:55.224 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:30:55.224 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:30:55.224 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:30:55.224 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F9EFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:30:55.224 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:30:55.224 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F9EFD49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:30:55.224 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:30:55.225 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=08b37787-5450-4b64-a565-a2d2eee0dcf4, Duration=1ms)
+2023-02-21T21:30:55.225 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:31:31.213 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f6f67ffa-ed19-4b58-b0bb-52a9c4341797)
+2023-02-21T21:31:31.214 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=44454a0c-e620-44b2-b5af-bec7b4fd8997)
+2023-02-21T21:31:31.215 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=6174dd17-73ba-4d78-bce9-5bdc45a5662e)
+2023-02-21T21:31:31.216 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f6f67ffa-ed19-4b58-b0bb-52a9c4341797, Duration=3ms)
+2023-02-21T21:31:31.217 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=44454a0c-e620-44b2-b5af-bec7b4fd8997, Duration=3ms)
+2023-02-21T21:31:31.219 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=6174dd17-73ba-4d78-bce9-5bdc45a5662e, Duration=4ms)
+2023-02-21T21:31:31.212 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:31:31.213 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f6f67ffa-ed19-4b58-b0bb-52a9c4341797)
+2023-02-21T21:31:31.214 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:31:31.214 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=44454a0c-e620-44b2-b5af-bec7b4fd8997)
+2023-02-21T21:31:31.215 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:31:31.215 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=6174dd17-73ba-4d78-bce9-5bdc45a5662e)
+2023-02-21T21:31:31.215 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:31:31.215 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3573916,"lat":-7.2229433,"server_time":"2023-02-22T04:31:30+07:00","time":"2023-02-22T04:31:25+07:00","heading":237,"speed":26,"alt":1637,"sat":12,"event_id":0,"event_key":"-","g_value":null,"mileage":35581867,"ignition":1,"fuellevel":86,"accu":27720,"gpsbatt":4013,"electricity_source":"accu","gsm_signal":4},"another_info":null}
+2023-02-21T21:31:31.215 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:31:31.216 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:31:31.216 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:31:31.216 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20ADF0D49F06290373993F4BE41CC0315E770481DFD65A40381A40ED0148FD9502AA010408011001B0010C, routing key:mp_event_decoder_filter
+2023-02-21T21:31:31.216 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:31:31.216 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20ADF0D49F06290373993F4BE41CC0315E770481DFD65A40381A40ED0148FD9502AA010408011001B0010C, routing key:mp_datalogger_incoming
+2023-02-21T21:31:31.216 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:31:31.216 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f6f67ffa-ed19-4b58-b0bb-52a9c4341797, Duration=3ms)
+2023-02-21T21:31:31.216 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:31:31.217 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:31:31.217 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3589433,"lat":-7.221905,"server_time":"2023-02-22T04:31:30+07:00","time":"2023-02-22T04:30:55+07:00","heading":244,"speed":25,"alt":1647,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581658,"ignition":1,"fuellevel":86,"accu":27721,"gpsbatt":4014,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:31:31.217 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:31:31.217 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:31:31.217 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:31:31.217 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D208FF0D49F0629884677103BE31CC03193A751EDF8D65A40381940F40148FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:31:31.217 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:31:31.217 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D208FF0D49F0629884677103BE31CC03193A751EDF8D65A40381940F40148FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:31:31.217 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:31:31.217 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=44454a0c-e620-44b2-b5af-bec7b4fd8997, Duration=3ms)
+2023-02-21T21:31:31.218 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:31:31.218 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:31:31.218 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350544504695431","chassis_number":"MHMFE74EJNK000929","lon":107.3593416,"lat":-7.2218333,"server_time":"2023-02-22T04:31:30+07:00","time":"2023-02-22T04:30:49+07:00","heading":265,"speed":22,"alt":1649,"sat":14,"event_id":0,"event_key":"-","g_value":null,"mileage":35581613,"ignition":1,"fuellevel":165,"accu":27723,"gpsbatt":4010,"electricity_source":"accu","gsm_signal":5},"another_info":null}
+2023-02-21T21:31:31.218 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:31:31.218 [Debug] RealtimeEndpoint: [350544504695431] Publishing event:1 PeriodicPosition to MProfiler.
+2023-02-21T21:31:31.219 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to event decoder.
+2023-02-21T21:31:31.219 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2089F0D49F0629B0A7C24428E31CC031E805E973FFD65A40381640890248FD9502AA010408011001B0010E, routing key:mp_event_decoder_filter
+2023-02-21T21:31:31.219 [Debug] MProfilerRabbitMQPublisherService: [350544504695431] publishing event:1 to data logger.
+2023-02-21T21:31:31.219 [Debug] [350544504695431] Publishing event to MProfiler, templateId:1, data:5C010067000A650801120F3335303534343530343639353433311A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2089F0D49F0629B0A7C24428E31CC031E805E973FFD65A40381640890248FD9502AA010408011001B0010E, routing key:mp_datalogger_incoming
+2023-02-21T21:31:31.219 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:PeriodicPosition.
+2023-02-21T21:31:31.219 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=6174dd17-73ba-4d78-bce9-5bdc45a5662e, Duration=4ms)
+2023-02-21T21:31:31.219 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:31:51.329 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=0dfd8e40-3f3d-416c-a61b-442be0158f65)
+2023-02-21T21:31:51.330 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=0dfd8e40-3f3d-416c-a61b-442be0158f65, Duration=1ms)
+2023-02-21T21:31:51.332 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=5c1fd243-7e93-4cbb-a8d7-2518a74c5b3b)
+2023-02-21T21:31:51.333 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=5c1fd243-7e93-4cbb-a8d7-2518a74c5b3b, Duration=1ms)
+2023-02-21T21:31:51.328 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:31:51.329 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=0dfd8e40-3f3d-416c-a61b-442be0158f65)
+2023-02-21T21:31:51.329 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:31:51.329 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:31:51+07:00","time":"2023-02-22T04:31:03+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26005,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:31:51.329 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:31:51.330 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:31:51.330 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:31:51.330 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2097F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:31:51.330 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:31:51.330 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D2097F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:31:51.330 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:31:51.330 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=0dfd8e40-3f3d-416c-a61b-442be0158f65, Duration=1ms)
+2023-02-21T21:31:51.331 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:31:51.332 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:31:51.332 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=5c1fd243-7e93-4cbb-a8d7-2518a74c5b3b)
+2023-02-21T21:31:51.333 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:31:51.333 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:31:51+07:00","time":"2023-02-22T04:31:33+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:31:51.333 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:31:51.333 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:31:51.333 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:31:51.333 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20B5F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:31:51.333 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:31:51.333 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20B5F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:31:51.333 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:31:51.333 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=5c1fd243-7e93-4cbb-a8d7-2518a74c5b3b, Duration=1ms)
+2023-02-21T21:31:51.334 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:31:54.686 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:31:54.687 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=c0cc6778-a9ec-445d-8d1f-56c8445a9064)
+2023-02-21T21:31:54.687 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:31:54.687 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424068335007","chassis_number":"MHMFE75EKNK000866","lon":110.3492,"lat":-1.5573316,"server_time":"2023-02-22T04:31:54+07:00","time":"2023-02-22T04:21:18+07:00","heading":150,"speed":0,"alt":22,"sat":19,"event_id":0,"event_key":"-","g_value":null,"mileage":23355757,"ignition":0,"fuellevel":174,"accu":25601,"gpsbatt":4081,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:31:54.687 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:31:54.687 [Debug] RealtimeEndpoint: [350424068335007] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:31:54.687 [Debug] MProfilerRabbitMQPublisherService: [350424068335007] publishing event:6 to event decoder.
+2023-02-21T21:31:54.687 [Debug] [350424068335007] Publishing event to MProfiler, templateId:6, data:5C060067000A650806120F3335303432343036383333353030371A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20CEEBD49F06290A70308AD4EAF8BF31D8F0F44A59965B40380040960148BBB601AA010408011000B00113, routing key:mp_event_decoder_filter
+2023-02-21T21:31:54.688 [Debug] MProfilerRabbitMQPublisherService: [350424068335007] publishing event:6 to data logger.
+2023-02-21T21:31:54.688 [Debug] [350424068335007] Publishing event to MProfiler, templateId:6, data:5C060067000A650806120F3335303432343036383333353030371A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20CEEBD49F06290A70308AD4EAF8BF31D8F0F44A59965B40380040960148BBB601AA010408011000B00113, routing key:mp_datalogger_incoming
+2023-02-21T21:31:54.688 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:31:54.688 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=c0cc6778-a9ec-445d-8d1f-56c8445a9064, Duration=1ms)
+2023-02-21T21:31:54.688 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:31:54.687 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=c0cc6778-a9ec-445d-8d1f-56c8445a9064)
+2023-02-21T21:31:54.688 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=c0cc6778-a9ec-445d-8d1f-56c8445a9064, Duration=1ms)
+2023-02-21T21:32:48.879 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:32:48.880 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=72bae5b5-99e4-4a50-8235-026b6980b00b)
+2023-02-21T21:32:48.881 [Debug] Request successfully matched the route with name 'RealtimeEndpoint' and template 'api/RealtimeEndpoint'
+2023-02-21T21:32:48.882 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f0ec4acb-d7fa-47dd-8d92-00548ba1fe85)
+2023-02-21T21:32:48.882 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:32:48.882 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:32:48+07:00","time":"2023-02-22T04:32:04+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26012,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:32:48.882 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:32:48.882 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:32:48.882 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:32:48.882 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20D4F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:32:48.882 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:32:48.883 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20D4F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:32:48.883 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:32:48.883 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f0ec4acb-d7fa-47dd-8d92-00548ba1fe85, Duration=1ms)
+2023-02-21T21:32:48.883 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:32:48.884 [Debug] RealtimeEndpoint: Start processing of the request.
+2023-02-21T21:32:48.884 [Debug] RealtimeEndpoint: Processing request body:{"data":{"gpstype":2,"imei":"350424063880650","chassis_number":"MHMFE75EKNK000914","lon":121.7832066,"lat":-2.2774083,"server_time":"2023-02-22T04:32:48+07:00","time":"2023-02-22T04:32:34+07:00","heading":0,"speed":0,"alt":0,"sat":0,"event_id":0,"event_key":"-","g_value":null,"mileage":14846466,"ignition":0,"fuellevel":87,"accu":26014,"gpsbatt":4057,"electricity_source":"accu","gsm_signal":3},"another_info":null}
+2023-02-21T21:32:48.884 [Debug] FiveCMapperService: Starting mapping of KTB message with event_id:0,event_key:-.
+2023-02-21T21:32:48.884 [Debug] RealtimeEndpoint: [350424063880650] Publishing event:6 NonTripPosition to MProfiler.
+2023-02-21T21:32:48.884 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to event decoder.
+2023-02-21T21:32:48.884 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F2F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_event_decoder_filter
+2023-02-21T21:32:48.884 [Debug] MProfilerRabbitMQPublisherService: [350424063880650] publishing event:6 to data logger.
+2023-02-21T21:32:48.885 [Debug] [350424063880650] Publishing event to MProfiler, templateId:6, data:5C060065000A630806120F3335303432343036333838303635301A254B54422074656C656D6174696373206576656E745F69643A30206576656E74206B65793A2D20F2F0D49F0629951CC1D7213802C031BA40930E20725E403800400048FE73AA010408011000B00100, routing key:mp_datalogger_incoming
+2023-02-21T21:32:48.885 [Debug] FiveCMapperService: KTB message with event_id:0,event_key:- mapped to event:NonTripPosition.
+2023-02-21T21:32:48.885 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=72bae5b5-99e4-4a50-8235-026b6980b00b, Duration=5ms)
+2023-02-21T21:32:48.885 [Information] Executing StatusCodeResult, setting HTTP status code 200
+2023-02-21T21:32:48.880 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=72bae5b5-99e4-4a50-8235-026b6980b00b)
+2023-02-21T21:32:48.882 [Information] Executing 'RealtimeEndpoint' (Reason='This function was programmatically called via the host APIs.', Id=f0ec4acb-d7fa-47dd-8d92-00548ba1fe85)
+2023-02-21T21:32:48.883 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=f0ec4acb-d7fa-47dd-8d92-00548ba1fe85, Duration=1ms)
+2023-02-21T21:32:48.885 [Information] Executed 'RealtimeEndpoint' (Succeeded, Id=
